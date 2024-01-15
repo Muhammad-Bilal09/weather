@@ -1,0 +1,35 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../Assets//bg-image.jpg);
+background-size: cover;
+}
+main{
+    flex: 1 0 auto;
+}
+.logo-img{
+    border: 0;
+    border-radius: 50px;
+width: 50px;
+}
+.weather{
+display: flex;
+justify-content: center;
+}
+
+
+.card{
+    width: 550px;
+    height:482px;
+//  position: relative;
+//  transition: all 0.2s;
+ 
+}
+.card-img{
+    height: 482px;
+}
+// .card:hover{
+//     transform: scale(1.15);   
+// }
